@@ -36,28 +36,10 @@ echo $albert_store->openStore();
 echo $albert_store->announce();
 echo $albert_store->displayDetails();
 
+echo '<hr>';
 
-if (isset($_POST["submit"])) {
+echo $john_store->openStore();
+echo $john_store->announce();
+echo $john_store->displayDetails();
 
-
-    //$name = $_POST["name"];
-    //$price = $_POST["price"];
-
-    //// create an instance of fruits(object)
-    //$fruit = new Fruit;
-    //// set values
-    //$fruit->setValues($name, $price);
-
-    //// get and display the values
-    //echo "Name: " . $fruit->getName() . "<br>";
-    //echo "Price: " . $fruit->getPrice() . "<br>";
-
-}
-
-//if ($_SERVER["REQUEST_METHOD"] == "POST") {
-//    $name = $_POST["name"];
-//    $price = $_POST["price"];
-//    $fruit = new Fruit($name, $price);
-//    $fruit->showInfo();
-//}
 ?>
