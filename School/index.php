@@ -36,7 +36,7 @@ if (isset($_POST["submit"])) {
 
 <body>
     <div class="container justify-content-center w-50">
-        <h1 class="text-center m-2">REGISTRATION</h1>
+        <h1 class="text-center m-2 bg-primary">REGISTRATION</h1>
         <form action="" method="post">
             <label for="student_name">Student's Name</label>
             <input type="text" name="student_name" placeholder="Name" class="form-control" required>
