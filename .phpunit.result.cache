@@ -1,0 +1,1 @@
+{"version":1,"defects":{"FareTest::testComputeBaseFareOverBaseDistance":7},"times":{"FareTest::testComputeBaseFareUnderBaseDistance":0.002,"FareTest::testComputeBaseFareOverBaseDistance":0.009,"FareTest::testIsDiscountTrue":0,"FareTest::testIsDiscountFalse":0.001,"FareTest::testComputeTotalFareWithDiscount":0,"FareTest::testComputeTotalFareWithoutDiscount":0}}
